@@ -24,7 +24,9 @@ function Navbar() {
                 </button>
 
                 <button
-                    className="navbar__menu-button"
+                    className={`navbar__menu-button ${
+                        isMenuOpen ? "navbar__menu-button--open" : ""
+                    }`}
                     onClick={toggleMenu}
                 >
                     {isMenuOpen ? "Close" : "Menu"}

@@ -95,6 +95,7 @@
     font-weight: var(--weight-medium);
 
     color: var(--color-text-light);
+    -webkit-text-stroke: 0.15px black;
 
     letter-spacing: .25rem;
     text-transform: uppercase;
