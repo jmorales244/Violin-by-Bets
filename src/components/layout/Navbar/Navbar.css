@@ -1,0 +1,77 @@
+/* ==========================================================
+   NAVBAR
+========================================================== */
+
+.navbar {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: var(--navbar-height);
+
+    padding: 0 var(--space-lg);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: var(--z-navbar);
+
+}
+
+/* ==========================================================
+   BRAND
+========================================================== */
+
+.navbar__brand {
+
+    border: none;
+    background: transparent;
+
+    color: var(--color-text-light);
+
+    font-family: var(--font-signature);
+
+    font-size: 2rem;
+
+    cursor: pointer;
+
+}
+
+/* ==========================================================
+   MENU BUTTON
+========================================================== */
+
+.navbar__menu-button {
+
+    padding: .8rem 1.6rem;
+
+    border: none;
+
+    border-radius: var(--radius-pill);
+
+    background: rgba(255,255,255,.18);
+
+    backdrop-filter: blur(20px);
+
+    color: var(--color-text-light);
+
+    font-family: var(--font-body);
+
+    font-size: .95rem;
+
+    cursor: pointer;
+
+    transition: var(--transition-normal);
+
+}
+
+.navbar__menu-button:hover{
+
+    background: rgba(255,255,255,.25);
+
+}
