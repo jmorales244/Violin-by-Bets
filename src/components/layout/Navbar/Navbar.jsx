@@ -4,21 +4,22 @@ import "./Navbar.css";
 import NavbarMenu from "./NavbarMenu";
 
 function Navbar() {
-
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     function toggleMenu() {
-        setIsMenuOpen(previous => !previous);
+        setIsMenuOpen((previous) => !previous);
     }
 
     return (
-
         <>
-            <header className="navbar">
-
+            <header
+                className={`navbar ${
+                    isMenuOpen ? "navbar--menu-open" : ""
+                }`}
+            >
                 <button
                     className="navbar__brand"
-                    aria-label="Home"
+                    aria-label="Go to homepage"
                 >
                     VB
                 </button>
@@ -28,21 +29,19 @@ function Navbar() {
                         isMenuOpen ? "navbar__menu-button--open" : ""
                     }`}
                     onClick={toggleMenu}
+                    aria-expanded={isMenuOpen}
+                    aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                 >
                     {isMenuOpen ? "Close" : "Menu"}
                 </button>
-
             </header>
 
             <NavbarMenu
                 isOpen={isMenuOpen}
                 onClose={toggleMenu}
             />
-
         </>
-
     );
-
 }
 
 export default Navbar;
