@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Bitter Mind";
+    src: url("../assets/fonts/BitterMind/BitterMind.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.test-font {
+    font-family: "BitterMind";
+    color: red;
+}
+
+@font-face{
+    font-family:"Izmir";
+
+    src: url("../assets/fonts/Izmir/FontsFree-Net-Fontspring-DEMO-izmir-regular.ttf")
+    format("truetype");
+
+    font-weight:400;
+
+    font-style:normal;
+}
+
+/* =======================================================
+   JUANA
+======================================================= */
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-thinit.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-extralight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-extralightit.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-lightit.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-regularit.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-mediumit.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-semibold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-semiboldit.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-boldit.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Juana";
+    src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-blackit.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* =======================================================
+   PP EDITORIAL
+======================================================= */
+
+@font-face {
+    font-family: "PPEditorial";
+    src: url("../assets/fonts/PPEditorial/PPEditorialNew-Ultralight-BF644b214ff1e9b.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PPEditorial";
+    src: url("../assets/fonts/PPEditorial/PPEditorialNew-UltralightItalic-BF644b214ff1e9b.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PPEditorial";
+    src: url("../assets/fonts/PPEditorial/PPEditorialNew-Regular-BF644b214ff145f.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PPEditorial";
+    src: url("../assets/fonts/PPEditorial/PPEditorialNew-Italic-BF644b214fb0c0a.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "PPEditorial";
+    src: url("../assets/fonts/PPEditorial/PPEditorialNew-Ultrabold-BF644b21500840c.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PPEditorial";
+    src: url("../assets/fonts/PPEditorial/PPEditorialNew-UltraboldItalic-BF644b214faef01.otf") format("opentype");
+    font-weight: 800;
+    font-style: italic;
+}

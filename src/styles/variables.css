@@ -1,0 +1,158 @@
+/* =======================================================
+   VIOLIN BY BETS DESIGN TOKENS
+   ======================================================= */
+
+:root {
+
+    /* =======================================================
+    OPACITY
+    ======================================================= */
+
+    --opacity-disabled: .4;
+    --opacity-muted: .7;
+
+    /* =======================================================
+    BORDERS
+    ======================================================= */
+
+    --border-thin: 1px solid var(--color-border);
+    --border-medium: 2px solid var(--color-border);
+
+    /* =======================================================
+    NAVBAR
+    ======================================================= */
+
+    --navbar-height: 90px;
+
+    /* =======================================================
+    SECTION SPACING
+    ======================================================= */
+
+    --section-padding: 8rem;
+    --section-padding-mobile: 5rem;
+
+    /* =======================================================
+    CONTENT WIDTHS
+    ======================================================= */
+
+    --content-width: 700px;
+    --reading-width: 650px;
+
+    /* ===================================================
+       COLORS
+       =================================================== */
+
+    --color-background: #F8F5F1;
+    --color-surface: #FFFFFF;
+
+    --color-text: #1B1B1B;
+    --color-text-light: #F5F5F5;
+    --color-text-muted: #6F6F6F;
+
+    --color-primary: #B28A56;
+    --color-secondary: #1F3044;
+
+    --color-border: #E7E2DB;
+
+    --overlay-dark: rgba(0,0,0,.35);
+    --overlay-heavy: rgba(0,0,0,.55);
+
+    /* =======================================================
+    FONT FAMILIES
+    ======================================================= */
+
+    --font-signature: "Bitter Mind", cursive;
+    --font-display: "PPEditorial", serif;
+    --font-serif: "Juana", serif;
+    --font-body: "Izmir", sans-serif;
+
+    /* ===================================================
+       FONT SIZES
+       =================================================== */
+
+    --text-xs: .75rem;
+    --text-sm: .875rem;
+    --text-md: 1rem;
+    --text-lg: 1.25rem;
+    --text-xl: 1.5rem;
+
+    --heading-sm: 2rem;
+    --heading-md: 3rem;
+    --heading-lg: 4.5rem;
+    --heading-xl: 6rem;
+
+    /* ===================================================
+       FONT WEIGHTS
+       =================================================== */
+
+    --weight-light: 300;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+
+    /* ===================================================
+       SPACING
+       =================================================== */
+
+    --space-xs: .5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-2xl: 4rem;
+    --space-3xl: 6rem;
+    --space-4xl: 8rem;
+
+    /* ===================================================
+       CONTAINER
+       =================================================== */
+
+    --container-sm: 768px;
+    --container-md: 1100px;
+    --container-lg: 1400px;
+
+    /* ===================================================
+       BORDER RADIUS
+       =================================================== */
+
+    --radius-sm: .5rem;
+    --radius-md: .75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 2rem;
+    --radius-pill: 999px;
+
+    /* ===================================================
+       SHADOWS
+       =================================================== */
+
+    --shadow-sm: 0 2px 8px rgba(0,0,0,.08);
+
+    --shadow-md: 0 10px 30px rgba(0,0,0,.12);
+
+    --shadow-lg: 0 20px 60px rgba(0,0,0,.18);
+
+    /* ===================================================
+       TRANSITIONS
+       =================================================== */
+
+    --transition-fast: .2s ease;
+
+    --transition-normal: .35s ease;
+
+    --transition-slow: .6s ease;
+
+    /* ===================================================
+       Z INDEX
+       =================================================== */
+    --z-media: 1;
+
+    --z-overlay: 2;
+
+    --z-content: 3;
+
+    --z-navbar: 100;
+
+    --z-modal: 1000;
+
+}
