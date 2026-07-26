@@ -63,7 +63,7 @@
 
     --font-signature: "Bitter Mind", cursive;
     --font-display: "PPEditorial", serif;
-    --font-serif: "Juana", serif;
+    --font-serif: "FSP DEMO", serif;
     --font-body: "Izmir", sans-serif;
 
     /* ===================================================
@@ -75,6 +75,7 @@
     --text-md: 1rem;
     --text-lg: 1.25rem;
     --text-xl: 1.5rem;
+    --text-brand: 3rem;
 
     --heading-sm: 2rem;
     --heading-md: 3rem;

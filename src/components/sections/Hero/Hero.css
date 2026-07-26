@@ -79,11 +79,11 @@
 .hero__brand {
     
 
-    font-family: "BitterMind";
-    font-size: var(--text-xl);
-    font-weight: var(--weight-medium);
+    font-family: "Bitter Mind";
+    font-size: var(--text-brand);
+    font-weight: var(--weight-semibold);
 
-    color: var(--color-text-light);
+    color: var(--color-text);
 }
 
 .hero__eyebrow {

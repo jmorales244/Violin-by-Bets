@@ -5,11 +5,6 @@
     font-style: normal;
 }
 
-.test-font {
-    font-family: "BitterMind";
-    color: red;
-}
-
 @font-face{
     font-family:"Izmir";
 
@@ -26,112 +21,112 @@
 ======================================================= */
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Thin";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-thin.otf") format("opentype");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Thin It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-thinit.otf") format("opentype");
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Alt ExtraLight";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-extralight.otf") format("opentype");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana ExtraKight It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-extralightit.otf") format("opentype");
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Light";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-light.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Light It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-lightit.otf") format("opentype");
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Regular";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Regular It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-regularit.otf") format("opentype");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Medium";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Medium It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-mediumit.otf") format("opentype");
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana SemiBold";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-semibold.otf") format("opentype");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana SemiBold It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-semiboldit.otf") format("opentype");
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Bold";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Bold It";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-boldit.otf") format("opentype");
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Black";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-black.otf") format("opentype");
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Juana";
+    font-family: "FSP DEMO - Juana Bold";
     src: url("../assets/fonts/Juana/Fontspring-DEMO-juana-blackit.otf") format("opentype");
     font-weight: 900;
     font-style: italic;
