@@ -84,7 +84,7 @@
     font-size: var(--text-brand);
     font-weight: var(--weight-semibold);
 
-    color: var(--color-text);
+    color: var(--color-text-light);
 }
 
 .hero__eyebrow {
