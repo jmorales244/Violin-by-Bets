@@ -30,6 +30,9 @@ function Services() {
                 <motion.div
                     className="services__header"
                     variants={fadeUp}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={animationConfig.viewport}
                 >
 
                     <p className="services__eyebrow">

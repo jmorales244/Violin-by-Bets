@@ -3,11 +3,15 @@
 ========================================================== */
 
 .services {
+    padding: 8rem 0;   /* ← mobile default: 128px top AND bottom */
+}
 
-    background: var(--color-background);
+@media (min-width: 768px) {
+    .services { padding: 2rem 0; }   /* tablet: shrinks to 32px */
+}
 
-    padding: 8rem 0;
-
+@media (min-width: 1024px) {
+    .services { padding: 12rem 0; }  /* desktop: grows to 192px */
 }
 
 .services__container {
