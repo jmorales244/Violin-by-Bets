@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-import "./Services.css";
+import "./services.css";
 
 import ServiceCard from "./ServiceCard";
 
