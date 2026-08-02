@@ -1,6 +1,6 @@
 import "./NavbarMenu.css";
 
-function NavbarMenu({ isOpen, onClose }) {
+function NavbarMenu({ isOpen }) {
 
     return (
 

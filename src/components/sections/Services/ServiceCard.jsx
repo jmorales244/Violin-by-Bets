@@ -14,10 +14,14 @@ function ServiceCard({ service }) {
         title,
         description,
         image,
+        video,
         layout,
+        cta,
+        href,
     } = service;
 
     return (
+
         <motion.article
             className={`service-card service-card--${layout}`}
             variants={staggerContainer}
@@ -27,15 +31,43 @@ function ServiceCard({ service }) {
         >
 
             <motion.div
-                className="service-card__image-wrapper"
+                className="service-card__media"
                 variants={imageReveal}
             >
-                <img
-                    src={image}
-                    alt={title}
-                    className="service-card__image"
-                    loading="lazy"
-                />
+
+                {video ? (
+
+                    <video
+                        className="service-card__video"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        preload="metadata"
+                    >
+
+                        <source
+                            src={video}
+                            type="video/mp4"
+                        />
+
+                    </video>
+
+                ) : image ? (
+
+                    <img
+                        src={image}
+                        alt={title}
+                        className="service-card__image"
+                        loading="lazy"
+                    />
+
+                ) : (
+
+                    <div className="service-card__placeholder" />
+
+                )}
+
             </motion.div>
 
             <div className="service-card__content">
@@ -54,17 +86,20 @@ function ServiceCard({ service }) {
                     {description}
                 </motion.p>
 
-                <motion.button
+                <motion.a
+                    href={href}
                     className="service-card__button"
                     variants={fadeUp}
                 >
-                    Learn More
-                </motion.button>
+                    {cta}
+                </motion.a>
 
             </div>
 
         </motion.article>
+
     );
+
 }
 
 export default ServiceCard;
