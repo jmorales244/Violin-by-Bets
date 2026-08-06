@@ -1,0 +1,303 @@
+/* ==========================================================
+   WHY BETS
+========================================================== */
+
+.why-bets {
+
+    background: var(--color-background);
+
+    padding: 8rem 0;
+
+}
+
+.why-bets__container {
+
+    width: min(92%, 1200px);
+
+    margin: 0 auto;
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.why-bets__header {
+
+    max-width: 720px;
+
+    margin: 0 auto 6rem;
+
+    text-align: center;
+
+}
+
+.why-bets__eyebrow {
+
+    margin-bottom: 1rem;
+
+    color: var(--color-accent);
+
+    font-family: var(--font-body);
+
+    font-size: .8rem;
+
+    font-weight: 500;
+
+    letter-spacing: .28rem;
+
+    text-transform: uppercase;
+
+}
+
+.why-bets__title {
+
+    margin-bottom: 2rem;
+
+    color: var(--color-text);
+
+    font-family: var(--font-serif);
+
+    font-size: clamp(3rem, 8vw, 5.5rem);
+
+    line-height: .95;
+
+    letter-spacing: -.04em;
+
+}
+
+.why-bets__description {
+
+    color: var(--color-text-muted);
+
+    font-family: var(--font-body);
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+
+}
+
+/* ==========================================================
+   FEATURED MEDIA
+========================================================== */
+
+.why-bets__media {
+
+    margin-bottom: 7rem;
+
+    overflow: hidden;
+
+    border-radius: 24px;
+
+    aspect-ratio: 16 / 9;
+
+    box-shadow:
+        0 30px 80px rgba(0,0,0,.12);
+
+}
+
+.why-bets__media img,
+.why-bets__media video {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+}
+
+/* ==========================================================
+   HIGHLIGHTS
+========================================================== */
+
+.why-bets__highlights {
+
+    display: grid;
+
+    gap: 5rem;
+
+}
+
+/* ==========================================================
+   FEATURE CARD
+========================================================== */
+
+.feature-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2rem;
+
+}
+
+.feature-card__media {
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    aspect-ratio: 4 / 5;
+
+}
+
+.feature-card__image,
+.feature-card__video {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform .8s ease;
+
+}
+
+.feature-card:hover .feature-card__image,
+.feature-card:hover .feature-card__video {
+
+    transform: scale(1.04);
+
+}
+
+.feature-card__content {
+
+    position: relative;
+
+}
+
+.feature-card__number {
+
+    display: block;
+
+    margin-bottom: 1rem;
+
+    color: rgba(0,0,0,.12);
+
+    font-family: var(--font-serif);
+
+    font-size: clamp(3rem, 10vw, 6rem);
+
+    line-height: .8;
+
+}
+
+.feature-card__title {
+
+    margin-bottom: 1.25rem;
+
+    color: var(--color-text);
+
+    font-family: var(--font-serif);
+
+    font-size: clamp(2rem, 5vw, 3rem);
+
+    line-height: 1;
+
+}
+
+.feature-card__description {
+
+    margin-bottom: 2rem;
+
+    max-width: 34rem;
+
+    color: var(--color-text-muted);
+
+    font-family: var(--font-body);
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+
+}
+
+.feature-card__link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .5rem;
+
+    color: var(--color-accent);
+
+    font-family: var(--font-body);
+
+    font-size: .95rem;
+
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition: transform .3s ease;
+
+}
+
+.feature-card__link:hover {
+
+    transform: translateX(.35rem);
+
+}
+
+/* ==========================================================
+   QUOTE
+========================================================== */
+
+.why-bets__quote {
+
+    margin-top: 8rem;
+
+    max-width: 900px;
+
+    margin-inline: auto;
+
+    color: var(--color-text);
+
+    font-family: var(--font-serif);
+
+    font-size: clamp(2rem, 5vw, 4rem);
+
+    line-height: 1.15;
+
+    text-align: center;
+
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (min-width: 768px) {
+
+    .why-bets {
+
+        padding: 10rem 0;
+
+    }
+
+}
+
+/* ==========================================================
+   DESKTOP
+========================================================== */
+
+@media (min-width: 1024px) {
+
+    .why-bets__highlights {
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 6rem 5rem;
+
+    }
+
+}
